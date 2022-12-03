@@ -4,8 +4,8 @@ const newsRoute = require('./routes/newsRoute')
 const userRoute = require('./routes/userRoute')
 const app = express()
 app.use(express.json())
-// const port = process.env.PORT || 5000
-const port = 5000
+ const port = process.env.PORT || 5000
+//const port = 5000
 
 //users and newsitems are a custom api which I have created and I am using router for modularization of
 //the code.
