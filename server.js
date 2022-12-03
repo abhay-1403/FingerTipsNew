@@ -25,5 +25,5 @@ const path = require('path')
 
 // }
 
-app.get('*' , (req , res)=>{res.sendFile(path.resolve(__dirname , 'client/index.html')) })
+app.get('*' , (req , res)=>{res.sendFile(path.resolve(__dirname , 'client/public/index.html')) })
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
